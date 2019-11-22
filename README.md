@@ -3,6 +3,15 @@ Authenticate a React app using Auth0's new SPA SDK, React Context, and React Hoo
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+## Prerequisites
+
+Create `.env` file in the root of the project, and input the following information from your Auth0 application:
+
+```
+REACT_APP_AUTH0_DOMAIN={YOUR DOMAIN HERE}
+REACT_APP_AUTH0_CLIENT_ID={YOUR CLIENT ID HERE}
+```
+
 ## Available Scripts
 
 In the project directory, you can run:
